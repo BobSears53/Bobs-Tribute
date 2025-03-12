@@ -86,12 +86,25 @@ html {
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.6;
+    list-style-image: url("Spectrum.jpg");
   }
   
   li {
     margin: 16px 0;
+    /* list-style-image: none; */
+  } 
+  
+  #Item1{
+    list-style-image: url("Spectrum.jpg");
   }
   
+  #item2{
+    list-style-image: url("Crosswinds74.jpg");
+  }
+
+  #item3{
+    list-style-image: url("TotalEclipse75.jpg");
+  }
   blockquote {
     font-style: italic;
     max-width: 545px;
